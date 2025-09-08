@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC Checker - Quick Wallet Lookup Tool</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #2f0a33;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0;
+            max-width: 500px;
+        }
+
+        .app-badges {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .app-badge-img {
+            height: 40px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .support-button {
+            background-color: #421d46;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .support-button:hover {
+            background-color: #5a2465;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        footer a {
+            color: #cccccc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="BTC Checker Logo" class="logo">
+
+        <p class="description">
+            BTC checker is a quick wallet lookup tool. Paste an address or scan a QR code to get started.
+        </p>
+
+        <div class="app-badges">
+            <a href="#" class="badge">
+                <img src="app-store.svg" alt="Download on the App Store" class="app-badge-img">
+            </a>
+            <a href="#" class="badge">
+                <img src="play-store.svg" alt="Get it on Google Play" class="app-badge-img">
+            </a>
+        </div>
+
+        <a href="https://app.youform.com/forms/fcjclbz5" class="support-button">
+            Support
+        </a>
+    </div>
+
+    <footer>
+        <a href="https://workingdevshero.com" target="_blank" rel="noopener noreferrer">
+            Powered by Working Dev's Hero LLC
+        </a>
+    </footer>
+</body>
+</html>

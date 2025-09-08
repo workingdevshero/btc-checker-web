@@ -1,0 +1,231 @@
+/* BTC Checker Main Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2f0a33;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 500px;
+    text-align: center;
+}
+
+.app-badges {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.badge {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.app-badge-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.support-button {
+    background-color: #421d46;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.support-button:hover {
+    background-color: #5a2465;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #421d46;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-left a:hover {
+    color: #cccccc;
+}
+
+/* Content Styles */
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.legal-content {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.legal-content h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.legal-content h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.legal-content h3 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.legal-content p {
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.legal-content ul {
+    color: #cccccc;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.legal-content li {
+    margin-bottom: 0.5rem;
+}
+
+.legal-content a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.legal-content a:hover {
+    color: #cccccc;
+}
+
+/* Footer Styles */
+.main-footer {
+    background-color: #421d46;
+    padding: 2rem 0;
+}
+
+.footer-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.main-footer a[href*="workingdevshero.com"] {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.main-footer a[href*="workingdevshero.com"]:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-nav,
+    .footer-nav {
+        padding: 0 1rem;
+    }
+
+    .footer-links {
+        gap: 1rem;
+    }
+
+    .legal-content {
+        padding: 1rem;
+    }
+
+    .legal-content h1 {
+        font-size: 2rem;
+    }
+
+    .legal-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .legal-content h3 {
+        font-size: 1.2rem;
+    }
+}
